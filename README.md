@@ -126,18 +126,6 @@ jupyter notebook notebooks/Student_Success_Predictor.ipynb
 
 The notebook reads the dataset using the relative path `../data/student_performance_data.csv`, so run it from inside the `notebooks/` folder (Jupyter does this by default when you open it there).
 
-## ⚠️ Notes and Limitations
-
-- The dataset appears to be synthetic or curated, so the high accuracy may not transfer to real school data.
-- Only a single train/test split is used, with no cross-validation or hyperparameter tuning yet.
-- Features such as `Gender` and `Ethnicity` are included in the model. Be careful about using a model like this to make decisions about real students.
-
-## 🔭 Future Work
-
-- Predict the full 5-class `GradeClass` (A–F) instead of binary pass/fail
-- Tune hyperparameters with `GridSearchCV`
-- Try `GradientBoostingClassifier` or `XGBoost`
-- Add cross-validation and SHAP-based explanations
 
 ## 📄 License
 
