@@ -110,8 +110,8 @@ Students who actually passed receive high predicted pass probabilities and stude
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/himanshu8038sharma/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/himanshu8038sharma/Student success predictor.git
+cd Student success predictor
 
 # 2. (Optional) create a virtual environment
 python -m venv venv
